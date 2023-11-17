@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body{
+      overflow: hidden;
+    }
+    .main {
+      display: flex;
+      flex-direction: row;
+      background-color: hsl(212,45%,89%);
+      border-radius: 2px;
+      margin:7vw 5vw;
+      height: 75vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      margin: 5vw 15vw;
+      background-color: white;
+      height: 47vh;
+      align-items: center;
+      width: 15vw;
+      border-radius: 10px;
+    }
+    img{
+      width: 14vw;
+      height: 25vh;
+      margin-top: 4px;
+      border-radius: 5px;
+    }
+    .content
+  {
+    font-size: 14px;
+    text-align: center;
+  }
+  @media screen and (max-width:360px)
+  {
+    .main {
+      display: flex;
+      flex-direction: row;
+      background-color: hsl(212,45%,89%);
+      border-radius: 2px;
+      margin:2vw 1vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    } .box {
+      display: flex;
+      flex-direction: column;
+      margin: 2vw 5vw;
+      background-color: white;
+      height: 60vh;
+      align-items: center;
+      width: 60vw;
+      border-radius: 7px;
+    }
+    img{
+      width: 55vw;
+      height: 40vh;
+      margin-top: 1px;
+      border-radius: 3px;
+    }
+    .content
+  {
+    font-size: 16px;
+    text-align: center;
+  }
+  }
+  </style>
+  </head>
+
+<body>
+  <div class="main">
+    <div class="box">
+    
+        <img src="qr.jpg" alt="qr code">
+      <div class="content">
+        <h4>
+        Improve your front-end skills by building projects
+      </h4>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">sri jashuva</a>.
+  </div>
+</body>
+
+</html>
